@@ -5321,6 +5321,7 @@ var _axios = _interopRequireDefault(require("axios"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// "use strict";
 var state = {
   temp: 70,
   city: "Seattle, WA"
