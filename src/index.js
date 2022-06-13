@@ -20,9 +20,11 @@ const dict = {
 // Changes background landscape
 const changeBgImg = () => {
     if (state.temp >= 80) {
-        document.body.style.backgroundImage = `url(${dict[eightyDegrees]})`;
+        document.body.style.backgroundImage =
+            "url('dist/courtney-cook-HClKQKUodF4-unsplash.5d754696.jpg')";
     } else if (state.temp >= 70) {
-        document.body.style.backgroundImage = `url(${dict[seventyDegrees]})`;
+        document.body.style.backgroundImage =
+            "url('dist/clement-fusil-Fpqx6GGXfXs-unsplash.4c6fb64d.jpg')";
     } else if (state.temp >= 60) {
         document.body.style.backgroundImage = `url(${dict[sixtyDegrees]})`;
     } else if (state.temp >= 50) {
