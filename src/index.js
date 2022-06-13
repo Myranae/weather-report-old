@@ -1,5 +1,8 @@
 "use strict";
 
+import "regenerator-runtime/runtime";
+import axios from "axios";
+
 const state = {
     temp: 70,
     city: "Seattle, WA",
@@ -10,8 +13,8 @@ const dict = {
     seventyDegrees: require("../assets/clement-fusil-Fpqx6GGXfXs-unsplash.jpg"),
     sixtyDegrees: require("../assets/dedu-adrian-BxT5oqgztNc-unsplash.jpg"),
     fiftyDegrees: require("../assets/nick-scheerbart-soGoAfesWO8-unsplash.jpg"),
-    fortyDegrees: require("../james-donovan-kFHz9Xh3PPU-unsplash.jpg"),
-    elseImg: require(".//assets/fabien-twb-6K_WE8FB3bE-unsplash.jpg"),
+    fortyDegrees: require("../assets/james-donovan-kFHz9Xh3PPU-unsplash.jpg"),
+    elseImg: require("../assets/fabien-twb-6K_WE8FB3bE-unsplash.jpg"),
 };
 
 // Changes background landscape
